@@ -18,7 +18,19 @@ export default function AboutPage() {
           Welcome to Dora Marketplace, your go-to destination for buying SOL, the native cryptocurrency of the Solana blockchain. Whether you're new to cryptocurrency or an experienced trader, Dora Marketplace offers a user-friendly platform to help you securely purchase and manage your SOL assets.
         </p>
         <span>Go to "Explorer" to see the different listings.</span>
+
+        <h2 className="text-4xl">Further Plans</h2>
+        <p>In the future, we plan to add more features to the Dora Marketplace. Stay tuned!</p>
+        <ul>
+          <li>Add backpack so one could access their wallets. It's already in the development process.</li>
+          <li>Add more listings</li>
+          <li>Add more features</li>
+          <li>Upgrade the UI</li>
+          <li>Integrate an aggregator</li>
+        </ul>
        
+        <h3 className="text-3xl">The plan is to make DORA a one stop shop. </h3>
+     
       </div>
     </div>
   );

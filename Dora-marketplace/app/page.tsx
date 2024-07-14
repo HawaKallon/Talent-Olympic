@@ -27,8 +27,11 @@ export default function Home() {
             </h1>
           </Link>
         </div>
+      
         <div className="w-full px-4 pt pt-12 md:px-4 lg:px-8 xl:px-10 2xl:px-0">
           <div className="flex h-full w-full flex-col items-center justify-center ">
+          <p className="text-3xl">The best place to buy and sell</p>
+        <p className="text-2xl mx-16">#DoraTheExplorer</p>
             <div className="mt-12 flex flex-col gap-4">
               <div className="w-fit items-center space-x-4">
                 <Button

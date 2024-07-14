@@ -6,7 +6,7 @@ export const NAVBAR_ITEMS: NavBarItemType[] = [
     link: "/explorer",
   },
   {
-    label: "Your listings",
+    label: "listings",
     link: "/your-listings",
   },
   {
