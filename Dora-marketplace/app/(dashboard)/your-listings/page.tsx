@@ -1,5 +1,23 @@
-import UnderConstructionPlace from "@/components/UnderConstructionPlace";
 
-export default function YourListingsPage() {
-  return <UnderConstructionPlace />;
-}
+
+
+
+
+import ItemGrid from "@/components/marketplace/ItemGrid";
+import React from "react";
+
+type Props = {};
+
+const ExplorerPage: React.FC<Props> = ({}) => {
+  return (
+    <div className="bg-explorer container mx-auto py-10">
+      
+      <ItemGrid />
+    </div>
+  );
+};
+
+
+
+
+export default ExplorerPage;

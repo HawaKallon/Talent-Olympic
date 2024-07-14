@@ -16,6 +16,7 @@ const DashboardLayout: React.FC<PropsWithChildren> = ({ children }) => {
       >
         {children}
       </Suspense>
+      
     </main>
   );
 };
